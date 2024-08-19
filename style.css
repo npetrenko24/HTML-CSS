@@ -1,5 +1,94 @@
-div.section_separator {
+div.section-separator {
   width: 100%;
   background-color: black;
   height: 2px;
+}
+div.col{
+  width: 200px;
+}
+div.col > * {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.input-margin-bottom{
+  margin-bottom: 10px;
+}
+table.section2,table.section2 th, table.section2 td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table.section2.table,table.section2.table th,table.section2.table td{
+  padding: 20px;
+}
+.section4-1{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+.section4-1 p{
+  width: 100%;
+  height: 100%;
+  font-size: medium;
+  white-space: pre-wrap;
+}
+.section4-2{
+  width: 200px;
+  height: 40px;
+  border: 1px solid black;
+}
+.section4-2 p{
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+}
+.section4-3{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+.section4-3 p{
+  height: 100%;
+  width: 100%;
+ white-space: pre;
+}
+
+.section4-4{
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+.section4-4 p {
+  white-space: pre-wrap;
+  height: 100%;
+  width: 100%;
+}
+.section-5{
+  background-color: rgb(107, 83, 83);
+  border: 1px solid black;
+}
+span.section-5 {
+  display: inline-block;
+  height: 50px;
+  width: 150px;
+}
+section.section-5{
+  height: 50px;
+  width: 150px;
+  display: inline-block;
+}
+button.section-5{
+  width: 200px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+h3.section-5{
+  height: 50px;
+}
+p.section-5{
+  height: 50px;
+}
+div.section-5{
+  height: 50px;
+  margin-bottom: 10px;
 }
